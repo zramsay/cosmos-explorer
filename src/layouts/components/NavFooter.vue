@@ -22,15 +22,15 @@
     >
       <a
         class="link link-primary no-underline mr-4"
-        href="https://github.com/ping-pub/explorer/blob/master/LICENSE"
+        href="https://git.vdb.to/cerc-io/cosmos-explorer/src/branch/master/LICENSE"
         target="noopener noreferrer"
         >License</a
       >
       <a
         class="link link-primary no-underline"
-        href="https://github.com/ping-pub/explorer"
+        href="https://git.vdb.to/cerc-io/cosmos-explorer"
         target="noopener noreferrer"
-        >Github</a
+        >Source</a
       >
     </div>
   </footer>
