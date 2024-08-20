@@ -19,6 +19,12 @@ app.use(LazyLoad, { component: true });
 // Mount vue app
 app.mount('#app');
 
+// fetch new block(s) on this interval, specified in miliseconds
+// note that the design of the block fetching code is such that it
+// will MISS BLOCKS if this interval is longer than the block time
+// TODO: make this configurable
+const blockFetchInterval = 2 * 1000;
+
 // fetch latest block every 6s
 const blockStore = useBaseStore();
 const requestCounter = ref(0);
@@ -28,4 +34,4 @@ setInterval(() => {
     // max allowed request
     blockStore.fetchLatest().finally(() => (requestCounter.value -= 1));
   }
-}, 6000);
+}, blockFetchInterval);
