@@ -2,10 +2,10 @@
     "chain_name": "laconic-testnet-2",
     "registry_name": "laconic-testnet-2",
     "api": [
-        {"provider": "lcn-api", "address": "https://laconicd-sapo.laconic.com/api "}
+        {"provider": "lcn-api", "address": "http://143.198.37.25:1317"}
     ],
     "rpc": [
-        {"provider": "lcn-rpc", "address": "https://laconicd-sapo.laconic.com"}
+        {"provider": "lcn-rpc", "address": "http://143.198.37.25:26657"}
     ],
     "sdk_version": "0.50.3",
     "coin_type": "118",
