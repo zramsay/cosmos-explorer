@@ -1,0 +1,23 @@
+{
+    "chain_name": "laconic-testnet-2",
+    "registry_name": "laconic-testnet-2",
+    "api": [
+        {"provider": "lcn-api", "address": "https://laconicd-sapo.laconic.com/api "}
+    ],
+    "rpc": [
+        {"provider": "lcn-rpc", "address": "https://laconicd-sapo.laconic.com"}
+    ],
+    "sdk_version": "0.50.3",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "laconic",
+    "logo": "/logos/cosmos.svg",
+    "assets": [{
+        "base": "alnt",
+        "symbol": "LNT",
+        "exponent": "18",
+        "coingecko_id": "cosmos",
+        "logo": "/logos/cosmos.svg"
+    }]
+}
+
