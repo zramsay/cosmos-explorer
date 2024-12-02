@@ -7,7 +7,7 @@
     "rpc": [
         {"provider": "lcn-rpc", "address": "http://143.198.37.25:26657"}
     ],
-    "sdk_version": "0.50.3",
+    "sdk_version": "0.50.10",
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "laconic",
