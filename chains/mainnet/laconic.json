@@ -1,6 +1,6 @@
 {
-    "chain_name": "laconic-testnet-2",
-    "registry_name": "laconic-testnet-2",
+    "chain_name": "laconic-mainnet",
+    "registry_name": "laconic-mainnet",
     "api": [
         {"provider": "lcn-api", "address": "https://audubon.app"}
     ],
