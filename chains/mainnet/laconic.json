@@ -2,10 +2,10 @@
     "chain_name": "laconic-mainnet",
     "registry_name": "laconic-mainnet",
     "api": [
-        {"provider": "lcn-api", "address": "https://audubon.app"}
+        {"provider": "lcn-api", "address": "https://laconicd-mainnet-1.laconic.com/api"}
     ],
     "rpc": [
-        {"provider": "lcn-rpc", "address": "http://143.198.37.25:26657"}
+        {"provider": "lcn-rpc", "address": "https://laconicd-mainnet-1.laconic.com"}
     ],
     "sdk_version": "0.50.10",
     "coin_type": "118",
